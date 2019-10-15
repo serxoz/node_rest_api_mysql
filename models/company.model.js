@@ -1,4 +1,4 @@
-const {TE, to}              = require('../services/util.service');
+const {TE, to} = require('../services/util.service');
 
 module.exports = (sequelize, DataTypes) => {
   var Model = sequelize.define('Company', {
